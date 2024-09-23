@@ -1,8 +1,8 @@
 import express from "express";
-import router from "../New folder/src/routes/index.router.js";
 import morgan from 'morgan'
 import errorHandler from "./src/middleware/errorHandler.js";
-import pathHandler from '../New folder/src/middlewares/pathHandler.js';
+import pathHandler from "./src/middleware/pathHandler.js";
+import router from './src/route/index.route.js';
 
 try {
     const server = express();
